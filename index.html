@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Website</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="img/icon.png" rel="icon" type="image/x-icon" alt="Logo" />
+
+</head>
+
+<body> 
+    <header>
+    <div class= "header-content"> 
+      <img src="img/news.png" width="85" height="85"> 
+    <h1> &nbsp; Top Headlines </h1>
+    <div class="auth-buttons">
+    <a href="sign-in.html" class= "auth-button"> Sign In </a>
+    <a href="sign-out.html" class= "auth-button2"> Sign Out </a>
+    </div>
+    </div>
+    <nav class="navbar">
+    <ul>
+     <li> <a href="index.html"> Home </a> </li>
+     <li> <a href="health.html"> Health </a> </li>
+     <li> <a href="sports.html"> Sports </a> </li>
+     <li> <a href="technology.html"> Technology </a> </li> 
+     <li> <a href="entertainment.html"> Entertainment </a> </li>
+
+     <label for="select">Select Countries:</label>
+  <select id="selectOption" onchange="window.location.href = this.value;">
+    <option> </option>
+    <option value="au.html"> Australia </option>
+    <option value="br.html"> Brazil </option>
+    <option value="ca.html"> Canada </option>
+    <option value="cn.html"> China </option>
+    <option value="de.html"> Germany </option>
+    <option value="in.html"> India </option>
+    <option value="il.html"> Israel </option>
+    <option value="it.html"> Italy </option>
+    <option value="jp.html"> Japan </option>
+    <option value="my.html"> Malaysia </option>
+    <option value="nz.html"> New Zealand </option>
+    <option value="ru.html"> Russia </option>
+    <option value="za.html"> South Africa </option>
+    <option value="kr.html"> South Korea </option>
+    <option value="ch.html"> Switzerland </option>
+    <option value="ae.html"> UAE </option>
+    <option value="gb.html"> UK </option>
+    <option value="ua.html"> Ukraine </option>
+    <option value="us.html"> US </option>
+  </select>
+    </ul>
+    </nav>
+    </header>
+
+    <main id="articles-container"></main> 
+    </main>
+    
+    <footer>
+        <p> &copy; 2024 Website App. All rights copyrighted.
+    </footer>
+    <script src="index.js"> </script>
+</body>
+</html>
