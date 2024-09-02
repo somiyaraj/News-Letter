@@ -1,0 +1,5 @@
+Inkl(curated news)
+Google News (local news, full coverage)
+Flipboard (personalized magazines)
+Ground News(bias distrubution, blindspotter)
+NewsBreak(local news, social media-like)
